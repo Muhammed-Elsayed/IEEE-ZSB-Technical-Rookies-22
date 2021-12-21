@@ -6,7 +6,7 @@ def binary_search(list, wanted_number):
     low = 0
     high = len(list1) - 1
 
-    while True:
+    while high >= low:
         mid = (low + high) // 2
 
         if wanted_number == list1[mid]:
