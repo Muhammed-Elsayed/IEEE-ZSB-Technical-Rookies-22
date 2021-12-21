@@ -1,10 +1,18 @@
-# python
-n = int(input("number: "))
-list1 = [0, 1]
-i = 0
-for n in range(n - 2):
-    number = list1[i] + list1[i + 1]
-    list1.append(number)
-    i += 1
+# fibonacci
+number = int(input("please enter a number: "))
+n1, n2 = 0, 1
+if number <= 0:
+    print("please enter a positive number")
 
-print(list1)
+elif number == 1:
+    print(n1)
+
+else:
+
+    for index in range(number):
+       print(n1)
+       sum = n1 + n2
+       n1 = n2
+       n2 = sum
+
+
