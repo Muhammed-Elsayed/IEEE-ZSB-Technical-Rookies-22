@@ -1,3 +1,6 @@
+n = int(input("please enter a number: "))
+ar = list(map(int, input("please enter the list:").split()))
+
 def sockMerchant(n, ar):
     dic1 = {}
     counter1 = 0
@@ -13,3 +16,7 @@ def sockMerchant(n, ar):
             x = x - 2
 
     return counter1
+
+
+
+print(sockMerchant(n, ar))
