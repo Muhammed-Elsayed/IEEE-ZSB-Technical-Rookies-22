@@ -1,4 +1,4 @@
-list1 = [2, 5, 3, 4, 1, 2]
+list1 = list(map(int,input("please enter the list: ").split()))
 list2 = []
 list3 = []
 list4 = []
@@ -13,4 +13,3 @@ for index in range(len(list1)):
         list4.append(index)
 
 print(list4[1] - list4[0])
-
