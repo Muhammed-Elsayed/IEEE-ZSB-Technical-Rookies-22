@@ -1,7 +1,7 @@
 def findDigits(n):
     counter = 0
-    n1 = list(map(int, str(n)))
-    for number in n1:
+    list1 = list(map(int, str(n)))
+    for number in list1:
        try:
           if n % number == 0:
              counter += 1
