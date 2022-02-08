@@ -12,4 +12,4 @@ def findDigits(n):
 
 
 
-print(findDigits(1012))
+
