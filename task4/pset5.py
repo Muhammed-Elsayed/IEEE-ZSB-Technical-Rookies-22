@@ -9,7 +9,3 @@ def findDigits(n):
            pass
 
     return counter
-
-
-
-
